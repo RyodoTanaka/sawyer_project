@@ -1,12 +1,12 @@
 - git:
-    local-name: sawyer_project/sawyer_robot
-    uri: https://github.com/RyodoTanaka/sawyer_robot
-    version: master
+    local-name: sawyer_robot
+    uri: https://github.com/RyodoTanaka/sawyer_robot.git
+    version: kinetic-devel
 - git:
-    local-name: sawyer_project/sawyer_simulator
-    uri: https://github.com/RyodoTanaka/sawyer_simulator
-    version: master
+    local-name: sawyer_simulator
+    uri: https://github.com/RyodoTanaka/sawyer_simulator.git
+    version: kinetic-devel
 - git:
-    local-name: sawyer_project/sawyer_moveit
-    uri: https://github.com/RyodoTanaka/sawyer_moveit
-    version: master
+    local-name: sawyer_moveit
+    uri: https://github.com/RyodoTanaka/sawyer_moveit.git
+    version: kinetic-devel
