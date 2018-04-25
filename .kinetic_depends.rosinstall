@@ -1,0 +1,12 @@
+- git:
+    local-name: sawyer_project/sawyer_robot
+    uri: https://github.com/RyodoTanaka/sawyer_robot
+    version: master
+- git:
+    local-name: sawyer_project/sawyer_simulator
+    uri: https://github.com/RyodoTanaka/sawyer_simulator
+    version: master
+- git:
+    local-name: sawyer_project/sawyer_moveit
+    uri: https://github.com/RyodoTanaka/sawyer_moveit
+    version: master
