@@ -10,3 +10,11 @@
     local-name: sawyer/sawyer_moveit
     uri: https://github.com/RyodoTanaka/sawyer_moveit.git
     version: kinetic-devel
+- git:
+    local-name: sawyer_tools/ompl
+    uri: https://github.com/RyodoTanaka/ompl.git
+    version: kinetic-devel
+- git:
+    local-name: sawyer_tools/moveit
+    uri: https://github.com/RyodoTanaka/moveit.git
+    version: kinetic-devel
