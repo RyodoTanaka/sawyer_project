@@ -57,3 +57,14 @@ But you have a limitation... That is...
   ```
 4. If the gripper start to move open & close, that means the robot starts the calibration.
 
+# Trouble Shooting
+### The arm does not move !
+After you check your all settings are correct, and it does not work.
+You need to calibrate the arm.
+##### Caclibrate the arm
+1. Remove any grippers from sawyer.
+2. Start up the sawyer, and keep pressing `Ctrl + f` when it is booting.
+3. Choose `Intera` mode, and reboot the sawyer.
+4. After the `Intera` mode come up, using the interface on the arm, choose system/Calibration.  
+   **!! Warning !! : Before starting the calibration, you need to make a 1.5m sphere free-space around the robot.**
+5. Afther the calibration, reboot the sawyer, and change the mode to `SDK`, Doing the same thing with section 2.
